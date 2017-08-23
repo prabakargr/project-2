@@ -1,0 +1,108 @@
+body{
+	margin: 0;
+}
+header {
+	background-color:#ff7381  ;
+	height: 80px;
+	width: 100%;
+}
+
+.logo img{
+	float: left;
+	width: 150px;
+	height: 80px;
+	
+	
+}
+.media img{
+	float: right;
+	width: 50px;
+	height: 50px;
+}
+
+
+
+.division{
+	float: left;
+	color: black;
+	width: 30%;
+	height: 700px;
+	font-size: 40px;
+	margin-top: -61px;
+	margin-left: -40px;
+
+}
+li{
+	list-style-type: none;
+	
+
+
+}
+ul a{
+	display: block;
+	width: 80%;
+	margin: 0;
+	text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+a:hover{
+	background-color: blue;
+
+}
+
+#d03{
+	width: 70%;
+	padding-left: 50px;
+}
+
+.waterpipes{
+	float: left;
+	width: 30%;
+	margin: 30px;
+	border: 1px solid black;
+padding: 5px;
+}
+.imgsize{
+	width: 404px;
+	height: 169px;
+}
+.Bearings{
+	float: left;
+	width: 30%;
+	margin: 30px;
+	border: 1px solid black;
+	padding: 5px;
+}
+.bearsize{
+	width: 405px;
+	
+}
+.gears{
+	width: 30%;
+	margin-left: 395px;
+	margin-top: 518px;
+	padding: 5px;
+	border: 1px solid black;
+
+}
+.gearsize{
+	width: 406px;
+}
+.engcase{
+	width: 30%;
+	margin-top: -655px;
+	margin-left: 871px;
+	padding: 5px;
+	border: 1px solid black;
+}
+.engsize{
+	width: 404px;
+}
+footer{
+	background-color: #ff7381;
+	height: 50px;
+	text-align: right;
+	vertical-align: middle;
+	padding:5px 2px;
+}
