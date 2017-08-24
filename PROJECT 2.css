@@ -5,6 +5,7 @@ header {
 	background-color:#ff7381  ;
 	height: 80px;
 	width: 100%;
+	position: fixed;
 }
 
 .logo img{
@@ -18,6 +19,7 @@ header {
 	float: right;
 	width: 50px;
 	height: 50px;
+	margin-top: 15px;
 }
 
 
@@ -26,28 +28,30 @@ header {
 	float: left;
 	color: black;
 	width: 30%;
-	height: 700px;
+	height: 1025px;
 	font-size: 40px;
-	margin-top: -61px;
-	margin-left: -40px;
-
+	overflow: hidden;
+	background-color: #cad9f2;
 }
 li{
 	list-style-type: none;
-	
-
-
-}
+  }
 ul a{
 	display: block;
 	width: 80%;
 	margin: 0;
 	text-decoration: none;
     color: black;
-    padding: 20px;
+    }
+ul{
+    	padding-left: 0;
+        margin-top: 0;
+        margin-bottom: 0;
 }
+
 a:hover{
 	background-color: blue;
+	width: 100%;
 
 }
 
@@ -55,54 +59,77 @@ a:hover{
 	width: 70%;
 	padding-left: 50px;
 }
+.waterbear{
+	width: 900px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-left: 0;
+}
+.full_content{
+	background-color: #e4e1df;
+}
 
 .waterpipes{
 	float: left;
-	width: 30%;
-	margin: 30px;
+	width: 40%;
+	margin-right: 5%;
 	border: 1px solid black;
-padding: 5px;
+    padding: 5px;
+    overflow: hidden;
 }
 .imgsize{
-	width: 404px;
+	width: 360px;
 	height: 169px;
 }
 .Bearings{
 	float: left;
-	width: 30%;
-	margin: 30px;
+	width: 40%;
 	border: 1px solid black;
 	padding: 5px;
+	overflow: hidden;
 }
 .bearsize{
-	width: 405px;
+	width: 360px;
+	height: 169px;
 	
 }
+.gearcase{
+	width: 900px;
+	margin:0 auto;
+	overflow: hidden;
+	margin-top: 5%;
+	margin-left: 0;
+}
 .gears{
-	width: 30%;
-	margin-left: 395px;
-	margin-top: 518px;
-	padding: 5px;
+	float: left;
+	width: 40%;
 	border: 1px solid black;
-
+    overflow: hidden;
+    margin-right:5%;
+    padding: 5px;
 }
 .gearsize{
-	width: 406px;
+	width: 360px;
+	height: 169px;
 }
 .engcase{
-	width: 30%;
-	margin-top: -655px;
-	margin-left: 871px;
-	padding: 5px;
+	width: 40%;
 	border: 1px solid black;
+	overflow: hidden;
+	padding: 5px;
 }
 .engsize{
-	width: 404px;
+	width: 360px;
+	height: 169px;
 }
+
 footer{
 	background-color: #ff7381;
 	height: 50px;
 	text-align: right;
 	vertical-align: middle;
 	padding:5px 2px;
+}
+.box_content{
+	padding-top: 5.96%;
 }
