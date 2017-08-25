@@ -5,7 +5,7 @@ header {
 	background-color:#ff7381  ;
 	height: 80px;
 	width: 100%;
-	position: fixed;
+	
 }
 
 .logo img{
@@ -28,13 +28,15 @@ header {
 	float: left;
 	color: black;
 	width: 30%;
-	height: 1025px;
+	height: 498px;
 	font-size: 40px;
 	overflow: hidden;
 	background-color: #cad9f2;
+
 }
 li{
 	list-style-type: none;
+
   }
 ul a{
 	display: block;
@@ -47,11 +49,13 @@ ul{
     	padding-left: 0;
         margin-top: 0;
         margin-bottom: 0;
+
 }
 
 a:hover{
 	background-color: blue;
 	width: 100%;
+	color: white;
 
 }
 
@@ -67,12 +71,13 @@ a:hover{
 }
 .full_content{
 	background-color: #e4e1df;
+	overflow-y: scroll;
+	height: 498px;
 }
-
 .waterpipes{
 	float: left;
 	width: 40%;
-	margin-right: 5%;
+	margin: 0 8%;
 	border: 1px solid black;
     padding: 5px;
     overflow: hidden;
@@ -97,7 +102,7 @@ a:hover{
 	width: 900px;
 	margin:0 auto;
 	overflow: hidden;
-	margin-top: 5%;
+	margin-top: 8%;
 	margin-left: 0;
 }
 .gears{
@@ -105,7 +110,7 @@ a:hover{
 	width: 40%;
 	border: 1px solid black;
     overflow: hidden;
-    margin-right:5%;
+    margin:0 8%;
     padding: 5px;
 }
 .gearsize{
@@ -129,7 +134,4 @@ footer{
 	text-align: right;
 	vertical-align: middle;
 	padding:5px 2px;
-}
-.box_content{
-	padding-top: 5.96%;
 }
